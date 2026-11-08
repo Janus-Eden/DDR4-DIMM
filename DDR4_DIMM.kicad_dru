@@ -35,3 +35,8 @@
 (rule "Termination resistor pad clearance"
     (constraint clearance (min 0.1mm))
     (condition "A.Type == 'Pad' && A.memberOfFootprint('R*')"))
+
+
+(rule "Edgeconnector pad clearance"
+    (constraint clearance (min 0.1mm))
+    (condition "A.Type == 'Pad' && A.memberOfFootprint('U1')"))

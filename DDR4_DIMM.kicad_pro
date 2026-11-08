@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 9.9999993548,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2144,
+        "min_clearance": 0.2292,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -522,8 +522,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -538,36 +538,36 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.25,
+        "diff_pair_gap": 0.2781,
+        "diff_pair_width": 0.1029,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Clock",
         "pcb_color": "rgb(0, 255, 245)",
         "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1029,
         "tuning_profile": "DQS",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
-        "clearance": 0.1,
+        "diff_pair_gap": 0.2781,
+        "diff_pair_width": 0.1029,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DQS",
         "pcb_color": "rgb(250, 255, 0)",
         "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1029,
         "tuning_profile": "DQS",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.2144,
@@ -581,8 +581,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -596,8 +596,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -611,8 +611,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -626,8 +626,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -641,8 +641,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -656,8 +656,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -671,8 +671,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -686,8 +686,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "DQ",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.25,
@@ -920,7 +920,7 @@
         "pattern": "DQ27"
       },
       {
-        "netclass": "DRAM6_DQ",
+        "netclass": "DRAM4_DQ",
         "pattern": "DQ28"
       },
       {
@@ -1718,7 +1718,7 @@
           {
             "bottom_reference_layer": "In4.Cu",
             "delay": 6908300,
-            "diff_pair_gap": 239000,
+            "diff_pair_gap": 278100,
             "signal_layer": "In3.Cu",
             "top_reference_layer": "In2.Cu",
             "width": 102900
